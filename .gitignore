@@ -1,0 +1,11 @@
+.DS_Store
+dist
+examples
+LICENSE
+node_modules
+packages
+package.json
+package-lock.json
+README.md
+tsconfig.json
+typedoc.json
