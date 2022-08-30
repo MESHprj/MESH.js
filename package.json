@@ -1,0 +1,24 @@
+{
+  "name": "mesh.js",
+  "version": "1.0.0",
+  "description": "Library for MESH blocks",
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "typedoc": "typedoc --out ./docs/ ./pacages/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MESHprj/MESH.js.git"
+  },
+  "author": "Sony Marketing Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MESHprj/MESH.js/issues"
+  },
+  "homepage": "https://github.com/MESHprj/MESH.js#readme",
+  "dependencies": {
+    "typedoc": "^0.23.10"
+  }
+}

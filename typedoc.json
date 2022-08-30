@@ -1,0 +1,6 @@
+{
+  "entryPointStrategy": "Expand",
+  "out": "docs",
+  "excludeExternals": true,
+  "tsconfig": "tsconfig.json"
+}
