@@ -5,7 +5,7 @@
   "scripts": {
     "build": "tsc --build",
     "clean": "tsc --build --clean",
-    "typedoc": "typedoc --out ./docs/ ./pacages/",
+    "typedoc": "typedoc --out ./docs/ ./packages/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
