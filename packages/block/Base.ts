@@ -12,12 +12,12 @@ export class Base {
 
   // Constant Values
   public readonly UUIDS = {
-    SERVICE_ID: '72c90001-57a9-4d40-b746-534e22ec9f9e' as const,
+    SERVICE_ID: '72c9000157a94d40b746534e22ec9f9e' as const,
     CHARACTERISTICS: {
-      INDICATE: '72c90005-57a9-4d40-b746-534e22ec9f9e' as const,
-      NOTIFY: '72c90003-57a9-4d40-b746-534e22ec9f9e' as const,
-      WRITE: '72c90004-57a9-4d40-b746-534e22ec9f9e' as const,
-      WRITE_WO_RESPONSE: '72c90002-57a9-4d40-b746-534e22ec9f9e' as const,
+      INDICATE: '72c9000557a94d40b746534e22ec9f9e' as const,
+      NOTIFY: '72c9000357a94d40b746534e22ec9f9e' as const,
+      WRITE: '72c9000457a94d40b746534e22ec9f9e' as const,
+      WRITE_WO_RESPONSE: '72c9000257a94d40b746534e22ec9f9e' as const,
     } as const,
   } as const;
   protected readonly MESSAGE_TYPE_ID_INDEX = 0 as const;
